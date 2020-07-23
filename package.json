@@ -1,0 +1,25 @@
+{
+  "name": "next-deploy-aws-demo",
+  "version": "1.0.0",
+  "sideEffects": false,
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "deploy": "next-deploy"
+  },
+  "dependencies": {
+    "next": "^9.4.4",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "@types/node": "^14.0.24",
+    "@types/react": "^16.9.43",
+    "@types/react-dom": "^16.9.8",
+    "next-deploy": "^1.0.1",
+    "prettier": "^2.0.5",
+    "typescript": "3.9.7"
+  },
+  "license": "MIT"
+}
